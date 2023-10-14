@@ -1,6 +1,6 @@
 # TechWaifuSquad-icpc-notebook
 <h1 align="center">
-  <img src="https://github.com/DominikMendoza/tws-icpc-notebook/blob/main/tws.png" alt="TechWaifu Squad Logo">
+  <img src="https://raw.githubusercontent.com/DominikMendoza/tws-icpc-notebook/main/img/tws.png" alt="TechWaifu Squad Logo" width="200">
 </h1>
 This is a repository that contains material for the `tws-icpc-notebook` project.
 
