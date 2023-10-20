@@ -1,0 +1,1 @@
+The key idea of the algorithm is to partition the process of finding the shortest path between any two vertices to several incremental phases.
