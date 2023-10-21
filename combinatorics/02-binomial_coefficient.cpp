@@ -1,3 +1,4 @@
+
 int C(int n, int k) {
     double res = 1;
     for (int i = 1; i <= k; ++i)

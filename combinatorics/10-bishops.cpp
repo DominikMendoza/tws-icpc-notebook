@@ -1,4 +1,6 @@
-int s (int i) {
+//Find the number of ways to place K bishops on an N × N chessboard so that no two bishops attack each other.
+
+int s(int i) {
     if (i & 1)
         return i / 4 * 2 + 1;
     else

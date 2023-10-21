@@ -1,3 +1,5 @@
+//Algorithm for n Catalan numbers in mod MOD
+
 const int MOD = ... // example: 1000000007
 const int MAX = n
 int catalan[MAX];

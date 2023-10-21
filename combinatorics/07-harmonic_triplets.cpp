@@ -1,3 +1,10 @@
+//You are given a number n ≤ 106. You are required to count the number of triples 2 ≤ a < b < c ≤ n
+//that satisfy one of the following conditions:
+//• or gcd(a, b) = gcd(a, c) = gcd(b, c) = 1,
+//• or gcd(a, b) > 1, gcd(a, c) > 1, gcd(b, c) > 1.
+
+//Algorithm O(n log n) For interval [2, n] :
+
 int n;
 bool good[MAXN];
 int deg[MAXN], cnt[MAXN];

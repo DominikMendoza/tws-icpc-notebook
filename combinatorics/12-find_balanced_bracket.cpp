@@ -1,3 +1,6 @@
+//Let n be the number of bracket pairs in the sequence. We have to find the k-th balanced sequence in
+//lexicographically sorted list of all balanced sequences for a given k
+
 string kth_balanced(int n, int k) {
     vector<vector<int>> d(2*n+1, vector<int>(n+1, 0));
     d[0][0] = 1;

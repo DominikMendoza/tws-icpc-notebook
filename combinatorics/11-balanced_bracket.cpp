@@ -1,4 +1,4 @@
-//next balanced sequence
+//Finding the lexicographical next balanced sequence. 
 
 bool nbs(string & s) {
     int n = s.size();

@@ -1,3 +1,5 @@
+//Now let there be k types of brackets.
+
 string kth_balanced2(int n, int k) {
     vector<vector<int>> d(2*n+1, vector<int>(n+1, 0));
     d[0][0] = 1;

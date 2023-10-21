@@ -1,5 +1,7 @@
 
-const int maxn = 6;//limite del triangulo
+//Algorithm for Pascal’s triangle with some maxn:
+
+const int maxn = 6;//triangle limit
 int P[maxn + 1][maxn + 1];
 P[0][0] = 1;
 
