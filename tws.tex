@@ -1,0 +1,144 @@
+%"The PDF file may contain up to 25 pages of reference material, single-sided, letter or A4 size, with text and illustrations readable by a person with correctable eyesight without magnification from a distance of 1/2 meter."
+\input{preamble.tex}
+\begin{document}
+% Gracias Demetrio
+\def\title{Universidad Peruana de Ciencias Aplicadas}
+%\\[0.2cm]
+
+\centering{\LARGE\textbf{Tech Waifu Squad}} \\[0.5cm]
+\centering{\includegraphics[width=6cm]{img/tws.png}}
+\tableofcontents\newpage
+
+\section{ Algebra }
+
+\section{Data structures}
+\subsection{ Disjoint Set Union }
+	\cppfile{data_structures/01-disjoint_set.cpp}
+\subsection{ Fenwick Tree }
+	\cppfile{data_structures/02-fenwick.cpp}
+\subsection{ Sqrt Decomposition }
+	\cppfile{data_structures/03-sqrt_desc.cpp}
+\subsection{ Segment Tree }
+	\cppfile{data_structures/04-segment_tree.cpp}
+\subsection{ Treap }
+	\cppfile{data_structures/05-treap.cpp}
+\subsection{ Sqrt Tree }
+	\cppfile{data_structures/06-sqrt_tree.cpp}
+\subsection{ Randomized Heap }
+	\cppfile{data_structures/07-randomized_heap.cpp}
+\subsection{ Sparse table (static RMQ) }
+	\cppfile{data_structures/08-sparse_table.cpp}
+\subsection{ Wavelet tree }
+	\cppfile{data_structures/09-wavelet_tree.cpp}
+\subsection{ Link-Cut tree }
+	\cppfile{data_structures/10-link_cut_tree.cpp}
+\subsection{ Convex hull trick (static) }
+	\cppfile{data_structures/11-convexhull.cpp}
+\subsection{ Convex hull trick (dynamic) }
+	\cppfile{data_structures/12-convexhull_dynamic.cpp}
+\subsection{ Gain-cost-set }
+	\cppfile{data_structures/13-gain_cost_set.cpp}
+
+\section{ Dynamic Programming }
+
+\section{ String processing }
+
+\section{ Combintorics }
+
+\subsection{Finding Power of Factorial Divisor}
+    \cppfile{combinatorics/01-factorial_divisor.cpp}
+\subsection{Binomial Coefficients}
+    \cppfile{combinatorics/02-binomial_coefficient.cpp}
+\subsection{Pascal triangle}
+    \cppfile{combinatorics/03-pascal_triangle.cpp}
+\subsection{Binomial Coefficient mod N}
+    \cppfile{combinatorics/04-binomial_coefficient_modN.cpp}
+\subsection{Catalan Numbers}
+    \cppfile{combinatorics/05-catalan_numers_modN.cpp}
+\subsection{The Inclusion-Exclusion Principle}
+    \cppfile{combinatorics/06-inclusion_exclusion.cpp}
+\subsection{Harmonic Triplets}
+    \cppfile{combinatorics/07-harmonic_triplets.cpp}
+\subsection{Next Combination Algorithm}
+    \cppfile{combinatorics/08-next_combination.cpp}
+\subsection{Generating all K-combinations}
+    \cppfile{combinatorics/09-all_combinations.cpp}
+\subsection{Placing Bishops on a Chessboard}
+    \cppfile{combinatorics/10-bishops.cpp}
+\subsection{Next Balanced Sequence}
+    \cppfile{combinatorics/11-balanced_bracket.cpp}
+\subsection{Find Balanced Sequence I}
+    \cppfile{combinatorics/12-find_balanced_bracket.cpp}
+\subsection{Find Balanced Sequence II}
+    \cppfile{combinatorics/13-find_balanced_bracket2.cpp}
+\subsection{Counting labeled graphs}
+    \cppfile{combinatorics/14-coloring_torus.cpp}
+
+\section{ Numerical methods }
+\subsection{ Binary search }
+	\cppfile{numerical_methods/01-binary_search.cpp}
+\subsection{ Ternary search }
+	\cppfile{numerical_methods/02-ternary_search.cpp}
+\subsection{ Newton's method }
+	\cppfile{numerical_methods/03-newton_method.cpp}
+\subsection{ Simpson's method }
+	\cppfile{numerical_methods/04-simpson_method.cpp}
+
+
+\section{Graphs}
+\subsection{ BFS }
+	\cppfile{graphs/01-bfs.cpp}
+\subsection{ DFS }
+	\cppfile{graphs/02-dfs.cpp}
+\subsection{ Topological sort }
+	\cppfile{graphs/03-topological_sort.cpp}
+\subsection{ Bipartite check }
+	\cppfile{graphs/04-bipartite_check.cpp}
+\subsection{ Dijkstra }
+	\cppfile{graphs/05-dijkstra.cpp}
+\subsection{ Bellman-Ford }
+	\cppfile{graphs/06-bellman_ford.cpp}
+\subsection{ Floyd-Warshall }
+	\cppfile{graphs/07-floyd_warshall.cpp}
+\subsection{ Ford-Fulkerson }
+	\cppfile{graphs/08-ford_fulkerson.cpp}
+\subsection{ Prim }
+	\cppfile{graphs/09-prim.cpp}
+\subsection{ Kruskal }
+	\cppfile{graphs/10-kruskal.cpp}
+\subsection{ Eulerian path }
+	\cppfile{graphs/11-eulerian_path.cpp}
+\subsection{ Heavy-light decomposition }
+	\cppfile{graphs/12-heavy_light.cpp}
+
+\section{Math}
+\subsection{Identities}
+{
+	$C_n = \frac{2(2n-1)}{n+1} C_{n-1}$
+
+	$C_n = \frac{1}{n+1} \binom{2n}{n}$
+
+	$C_n \sim \frac{4^n}{n^{3/2}\sqrt{\pi}}$
+
+	$\sigma(n) = O(\log(\log(n)))$ (number of divisors of $n$)
+
+	$F_{2n+1} = F_{n}^2 + F_{n+1}^2$
+
+	$F_{2n} = F_{n+1}^2 - F_{n-1}^2$
+
+	$\sum_{i=1}^n F_i = F_{n+2}-1$
+
+	$F_{n+i}F_{n+j} - F_nF_{n+i+j} = (-1)^n F_iF_j$
+
+	(Möbius Inv. Formula)
+	Let $g(n) = \sum_{d\mid n} f(d)$, then $f(n)=\sum{d\mid n} g(d) \mu\left(\frac{n}{d})\right)$.
+}
+
+\section{Geometry}
+\section{Strings}
+
+\section{Flow}
+
+\section{Other}
+
+\end{document}
